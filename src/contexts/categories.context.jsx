@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from "react";
-import { getCategoriesAndDocuments } from "../utils/firebase/firebase.util";
+import { getCategoriesAndDocuments } from "../utils/firebase/firebase.utils";
 
 //import SHOP_DATA from "../shop-data";
 

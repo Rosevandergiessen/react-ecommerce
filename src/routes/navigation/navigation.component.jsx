@@ -8,7 +8,7 @@ import { UserContext } from "../../contexts/user.context";
 import { CartContext } from "../../contexts/cart.context";
 
 import { ReactComponent as Logo} from '../../assets/toshi-logo-green.svg';
-import { signOutUser } from "../../utils/firebase/firebase.util";
+import { signOutUser } from "../../utils/firebase/firebase.utils";
 
 import { NavigationContainer, LogoContainer, NavLinks, NavLink } from "./navigation.styles";
 
