@@ -7,7 +7,7 @@ import CartDropdown from '../../components/cart-dropdown/cart-dropdown.component
 import { UserContext } from "../../contexts/user.context";
 import { CartContext } from "../../contexts/cart.context";
 
-import { ReactComponent as Logo} from '../../assets/crown.svg';
+import { ReactComponent as Logo} from '../../assets/toshi-logo-green.svg';
 import { signOutUser } from "../../utils/firebase/firebase.util";
 
 import { NavigationContainer, LogoContainer, NavLinks, NavLink } from "./navigation.styles";
@@ -23,8 +23,11 @@ const Navigation = () => {
           <Logo />
         </LogoContainer>
         <NavLinks>
+          <NavLink >
+            HOW IT WORKS
+          </NavLink>
           <NavLink to='/shop'>
-            SHOP
+            GAMES
           </NavLink>
           {
             currentUser ? (
