@@ -5,6 +5,7 @@ import logger from "redux-logger";
 import { rootReducer } from "./root-reducer";
 
 // library helpers that run before action hits reducer, dispatch - middleware - reducer
+
 const middleWares = [logger];
 
 const composedEnhancers = compose(applyMiddleware(...middleWares));
