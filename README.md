@@ -1,1 +1,6 @@
-## E-commerce app build with React and Redux using Firebase noSQL database. 
+## E-commerce 
+
+Technologies:
+- React & Redux
+- Firebase authorization and Firestore database
+- Deployed on Netlify
