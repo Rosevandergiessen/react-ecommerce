@@ -6,4 +6,8 @@ Technologies:
 - Deployed on Netlify
 
 
-Memoization with reselect, styled components, redux persist.
+Memoization with reselect, styled components, redux persist, redux thunk.
+
+class components -> functional components
+useContext -> redux
+async -> thunk
