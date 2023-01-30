@@ -17,17 +17,15 @@ export const ProductCartContainer = styled.div`
   }
   button {
     width: 80%;
-    opacity: 0.7;
     position: absolute;
     top: 255px;
     display: none;
   }
   &:hover {
     img {
-      opacity: 0.8;
+      outline: 3px solid black;
     }
     button {
-      opacity: 0.85;
       display: flex;
     }
   }
@@ -38,7 +36,7 @@ export const Footer = styled.div`
   height: 5%;
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 20px;
 `;
 
 export const Name = styled.span`

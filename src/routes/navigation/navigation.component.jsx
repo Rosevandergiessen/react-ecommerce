@@ -9,7 +9,7 @@ import { selectIsCartOpen } from '../../store/cart/cart.selector';
 import { selectCurrentUser } from '../../store/user/user.selector';
 import { signOutStart } from '../../store/user/user.action';
 
-import { ReactComponent as Logo } from '../../assets/toshi-logo-green.svg';
+import { ReactComponent as Logo } from '../../assets/toshi-logo.svg';
 
 import {
   NavigationContainer,

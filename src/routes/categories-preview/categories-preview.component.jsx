@@ -12,9 +12,6 @@ const CategoriesPreview = () => {
 
   return (
     <Fragment>
-
-
-
       { isLoading ?(
         <Spinner />
         ) : (
@@ -25,9 +22,6 @@ const CategoriesPreview = () => {
         );
       }))
       }
-
-
-
     </Fragment>
   );
 };

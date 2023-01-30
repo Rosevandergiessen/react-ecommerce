@@ -39,11 +39,11 @@ export const GoogleSignInButton = styled(BaseButton)`
 export const InvertedButton = styled(BaseButton)`
   background-color: white;
   color: black;
-  border: 1px solid black;
+  border: 2px solid black;
   &:hover {
     background-color: black;
     color: white;
-    border: none;
+    border: 2px solid white;
   }
 `;
 

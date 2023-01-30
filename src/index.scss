@@ -1,4 +1,7 @@
 body {
+  background-color: rgba(255, 255, 255, 1);
+  background-size: 10px 10px;
+  background-image:  repeating-linear-gradient(to right, #939393, #939393 0.4px, rgba(255, 255, 255, 1) 0.4px, rgba(255, 255, 255, 1));
   margin: 0;
   font-family: Lora, serif;
   padding: 10px 40px;
@@ -14,6 +17,10 @@ code {
 a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
+    &:hover {
+      color: aquamarine;
+    }
 }
 
 * {

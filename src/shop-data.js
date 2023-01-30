@@ -147,7 +147,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Womens',
+    title: 'Space',
     items: [
       {
         id: 23,

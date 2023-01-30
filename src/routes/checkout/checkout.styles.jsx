@@ -7,6 +7,8 @@ export const CheckoutContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 50px auto 0;
+  background-color: white;
+  padding: 20px;
 `;
 
 export const CheckoutHeader = styled.div`
