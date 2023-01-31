@@ -22,11 +22,17 @@ export const BaseButton = styled.button`
   justify-content: center;
   align-items: center;
   padding: 0px;
-  &:hover {
+  &:hover:enabled {
     background-color: white;
     color: black;
     border: 1px solid black;
   }
+
+  &:disabled {
+    background-color: #F0F0F0;
+    color: white;
+    opacity: 1;
+}
 `;
 
 export const GoogleSignInButton = styled(BaseButton)`
@@ -42,7 +48,7 @@ export const InvertedButton = styled(BaseButton)`
   background-color: white;
   color: black;
   border: 2px solid black;
-  &:hover {
+  &:hover:enabled {
     background-color: black;
     color: white;
     border: 2px solid white;

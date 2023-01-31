@@ -13,6 +13,7 @@ export const ProductCartContainer = styled.div`
     width: 100%;
     height: 95%;
     object-fit: cover;
+    margin-bottom: 5px;
   }
   button {
     width: 80%;
@@ -32,12 +33,10 @@ export const ProductCartContainer = styled.div`
 
 export const Footer = styled.div`
   width: 100%;
-  height: 10%;
+  height: 5%;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
-  background-color: rgba(250,250,250, 0.5);
-
 `;
 
 export const Name = styled.span`

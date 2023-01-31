@@ -11,26 +11,26 @@ const categories = [
   },
   {
     id: 2,
-    title: 'earth',
-    imageUrl: 'https://source.unsplash.com/ggeXPf_ykAU',
-    route: 'shop/earth'
+    title: 'toys',
+    imageUrl: 'https://source.unsplash.com/FTbRYPERsqc',
+    route: 'shop/toys'
   },
   {
     id: 3,
-    title: 'mars',
-    imageUrl: 'https://source.unsplash.com/mDPMZYyQuIQ',
-    route: 'shop/mars'
+    title: 'snacks',
+    imageUrl: 'https://source.unsplash.com/w6elADh_jww',
+    route: 'shop/snacks'
   },
   {
     id: 4,
-    title: 'venus',
-    imageUrl: 'https://source.unsplash.com/XClNDg9Z9Ag',
+    title: 'care',
+    imageUrl: 'https://source.unsplash.com/l0Gq4BmboYY',
     route: 'shop/venus'
   },
   {
     id: 5,
-    title: 'pluto',
-    imageUrl: 'https://source.unsplash.com/FB2yVV42jD0',
+    title: 'travel',
+    imageUrl: 'https://source.unsplash.com/oBCT3obZ6OY',
     route: 'shop/pluto'
   }
 ]

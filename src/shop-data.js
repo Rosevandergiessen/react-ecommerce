@@ -5,7 +5,7 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'Hip hip hip hopper',
-        imageUrl: 'http://source.unsplash.com/qy0BHykaq0E',
+        imageUrl: 'http://source.unsplash.com/qy0BHykaq0E/w=600',
         price: 125,
       },
       {
@@ -59,13 +59,13 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Earth',
+    title: 'Toys',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220,
+        name: 'Frisbee',
+        imageUrl: 'https://source.unsplashed.com/4RmkomQYkXk',
+        price: 15,
       },
       {
         id: 11,
@@ -112,7 +112,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Mars',
+    title: 'Snacks',
     items: [
       {
         id: 18,
@@ -147,7 +147,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Venus',
+    title: 'Care',
     items: [
       {
         id: 23,
@@ -194,7 +194,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Pluto',
+    title: 'Travel',
     items: [
       {
         id: 30,

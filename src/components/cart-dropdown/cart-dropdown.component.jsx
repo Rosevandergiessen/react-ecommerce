@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { selectCartItems } from '../../store/cart/cart.selector';
+import { selectCartItems, selectCartTotal } from '../../store/cart/cart.selector';
 import { selectIsCartOpen } from '../../store/cart/cart.selector';
 
 import { setIsCartOpen } from '../../store/cart/cart.action';
@@ -13,6 +13,7 @@ import {
   CartDropdownContainer,
   EmptyMessage,
   CartItems,
+  CartTotal
 } from './cart-dropdown.styles';
 
 const CartDropdown = () => {
@@ -20,6 +21,7 @@ const CartDropdown = () => {
 
   const cartItems = useSelector(selectCartItems);
   const isCartOpen = useSelector(selectIsCartOpen);
+  const cartTotal = useSelector(selectCartTotal);
   const toggleIsCartOpen = () => dispatch(setIsCartOpen(!isCartOpen));
 
   const navigate = useNavigate();
@@ -28,7 +30,6 @@ const CartDropdown = () => {
     navigate('/checkout');
     toggleIsCartOpen();
   };
-
 
   return (
     <CartDropdownContainer>
@@ -39,7 +40,12 @@ const CartDropdown = () => {
           <EmptyMessage>Your cart is empty</EmptyMessage>
         )}
       </CartItems>
-      <Button onClick={goToCheckoutHandler}>TO CHECKOUT</Button>
+      <CartTotal>Total: €{cartTotal}</CartTotal>
+      {cartItems.length ? (
+        <Button onClick={goToCheckoutHandler}>TO CHECKOUT</Button>
+        ) : (
+        <Button onClick={goToCheckoutHandler} disabled='true'>TO CHECKOUT</Button>
+        )}
     </CartDropdownContainer>
   );
 };

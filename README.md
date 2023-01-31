@@ -6,7 +6,7 @@ Technologies:
   - Redux Persist
   - Memoization with Reselect
   - Styled components
-- Firebase authorization
+- Firebase authorization with Google sign in 
 - Firestore noSQL database
 - Payment funtionality with Stripe
 - Deployed on Netlify
