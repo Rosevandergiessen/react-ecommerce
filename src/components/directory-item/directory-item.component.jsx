@@ -18,7 +18,6 @@ const DirectoryItem = ({ category }) => {
         }} />
         <Body>
           <h2>{title}</h2>
-          <p>SHOP NOW</p>
         </Body>
       </DirectoryItemContainer>
   )

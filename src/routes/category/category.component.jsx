@@ -10,7 +10,12 @@ import {
   selectCategoriesIsLoading,
 } from '../../store/categories/categories.selector';
 
-import { CategoryContainer, Title } from './category.styles';
+import {
+  CategoryContainer,
+  Title,
+  TitleContainer,
+  GoBackLink
+ } from './category.styles';
 
 const Category = () => {
   const { category } = useParams();
@@ -24,7 +29,10 @@ const Category = () => {
 
   return (
     <Fragment>
-      <Title>{category.toUpperCase()}</Title>
+      <TitleContainer>
+        <Title>{category.toUpperCase()}</Title>
+        <GoBackLink to='/shop'>BACK TO SHOP</GoBackLink>
+      </TitleContainer>
       {isLoading ? (
         <Spinner />
       ) : (

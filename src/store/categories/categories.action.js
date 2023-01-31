@@ -12,3 +12,11 @@ export const fetchCategoriesSuccess = (categoriesArray) =>
 
 export const fetchCategoriesFailure = (error) =>
   createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_FAILED, error);
+
+export const setCategoriesSucces = (setCategories) =>
+    createAction(
+      CATEGORIES_ACTION_TYPES.SET_CATEGORIES_SUCCES, setCategories
+    );
+
+export const setCategoriesFailure = (error) =>
+      createAction(CATEGORIES_ACTION_TYPES.SET_CATEGORIES_FAILED, error);

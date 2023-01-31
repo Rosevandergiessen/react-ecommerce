@@ -13,7 +13,6 @@ export const ProductCartContainer = styled.div`
     width: 100%;
     height: 95%;
     object-fit: cover;
-    margin-bottom: 5px;
   }
   button {
     width: 80%;
@@ -33,17 +32,19 @@ export const ProductCartContainer = styled.div`
 
 export const Footer = styled.div`
   width: 100%;
-  height: 5%;
+  height: 10%;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  background-color: rgba(250,250,250, 0.5);
+
 `;
 
 export const Name = styled.span`
-  width: 90%;
+  width: 80%;
   margin-bottom: 15px;
 `;
 
 export const Price = styled.span`
-  width: 10%;
+  width: 20%;
 `;

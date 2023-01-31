@@ -1,12 +1,12 @@
 const SHOP_DATA = [
   {
-    title: 'Hats',
+    title: 'Fashion',
     items: [
       {
         id: 1,
-        name: 'Brown Brim Large',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25,
+        name: 'Hip hip hip hopper',
+        imageUrl: 'http://source.unsplash.com/qy0BHykaq0E',
+        price: 125,
       },
       {
         id: 2,
@@ -59,7 +59,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Sneakers',
+    title: 'Earth',
     items: [
       {
         id: 10,
@@ -112,7 +112,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Jackets',
+    title: 'Mars',
     items: [
       {
         id: 18,
@@ -147,7 +147,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Space',
+    title: 'Venus',
     items: [
       {
         id: 23,
@@ -194,7 +194,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Mens',
+    title: 'Pluto',
     items: [
       {
         id: 30,

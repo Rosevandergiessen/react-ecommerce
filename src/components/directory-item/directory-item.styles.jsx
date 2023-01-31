@@ -9,7 +9,7 @@ export const BackgroundImage = styled.div`
 `;
 
 export const Body = styled.div`
-  height: 90px;
+  height: 50px;
   padding: 0 25px;
   display: flex;
   flex-direction: column;
@@ -20,8 +20,6 @@ export const Body = styled.div`
 
   h2 {
     font-weight: bold;
-    margin: 0 6px 0;
-    line-height: 1rem;
     letter-spacing: 5px;
     font-size: 22px;
     color: white;
@@ -56,6 +54,10 @@ export const DirectoryItemContainer = styled.div`
 
   &:hover {
     cursor: pointer;
+
+    ${Body} {
+      background-color: #180ada;
+    }
 
     ${BackgroundImage} {
       transform: scale(1.2);
