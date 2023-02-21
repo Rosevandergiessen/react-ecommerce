@@ -4,32 +4,32 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Hip hip hip hopper',
-        imageUrl: 'http://source.unsplash.com/qy0BHykaq0E/w=600',
+        name: 'Top',
+        imageUrl: 'http://source.unsplash.com/Em_7i3PEWns',
         price: 125,
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        name: 'Necklace',
+        imageUrl: 'http://source.unsplash.com/1PesBDwJz7g',
         price: 18,
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        name: 'Dress',
+        imageUrl: 'http://source.unsplash.com/Oige3Rp-RTY',
         price: 35,
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        name: 'Suit',
+        imageUrl: 'http://source.unsplash.com/ISrx6MJ7XXI',
         price: 25,
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+        name: 'Fedora',
+        imageUrl: 'https://source.unsplash.com/qUp0UsT89BY',
         price: 18,
       },
       {
@@ -59,12 +59,12 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Toys',
+    title: 'Gaming',
     items: [
       {
         id: 10,
         name: 'Frisbee',
-        imageUrl: 'https://source.unsplashed.com/4RmkomQYkXk',
+        imageUrl: 'https://source.unsplashed.com/jtPSdmlEOjk',
         price: 15,
       },
       {

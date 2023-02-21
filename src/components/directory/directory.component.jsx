@@ -6,7 +6,7 @@ const categories = [
   {
     id: 1,
     title: 'fashion',
-    imageUrl: 'http://source.unsplash.com/qy0BHykaq0E',
+    imageUrl: 'http://source.unsplash.com/1PesBDwJz7g',
     route: 'shop/fashion'
   },
   {
@@ -23,8 +23,8 @@ const categories = [
   },
   {
     id: 4,
-    title: 'care',
-    imageUrl: 'https://source.unsplash.com/l0Gq4BmboYY',
+    title: 'gaming',
+    imageUrl: 'https://source.unsplash.com/jtPSdmlEOjk',
     route: 'shop/venus'
   },
   {
