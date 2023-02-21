@@ -11,14 +11,14 @@ const categories = [
   },
   {
     id: 2,
-    title: 'toys',
-    imageUrl: 'https://source.unsplash.com/FTbRYPERsqc',
+    title: 'music',
+    imageUrl: 'https://source.unsplash.com/W8BRzoUTHNA',
     route: 'shop/toys'
   },
   {
     id: 3,
-    title: 'snacks',
-    imageUrl: 'https://source.unsplash.com/w6elADh_jww',
+    title: 'technology',
+    imageUrl: 'https://source.unsplash.com/Xd2FSvcRr8',
     route: 'shop/snacks'
   },
   {
@@ -30,7 +30,7 @@ const categories = [
   {
     id: 5,
     title: 'travel',
-    imageUrl: 'https://source.unsplash.com/oBCT3obZ6OY',
+    imageUrl: 'https://source.unsplash.com/miKmVyq3qhE',
     route: 'shop/pluto'
   }
 ]
