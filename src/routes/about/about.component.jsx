@@ -1,8 +1,15 @@
+import {
+  AboutContainer,
+  Title,
+  Intro
+} from './about.styles'
+
 const About = () => {
   return (
-    <div>
-      <h1>About us</h1>
-    </div>
+    <AboutContainer>
+      <Title>ABOUT US</Title>
+      <Intro></Intro>
+    </AboutContainer>
   );
 }
 
