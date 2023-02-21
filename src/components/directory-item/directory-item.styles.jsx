@@ -56,7 +56,8 @@ export const DirectoryItemContainer = styled.div`
     cursor: pointer;
 
     ${Body} {
-      background-color: #180ada;
+      background-color: #dacc0a;
+      ;
     }
 
     ${BackgroundImage} {
