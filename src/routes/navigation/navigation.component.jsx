@@ -14,7 +14,7 @@ import { ReactComponent as Logo } from '../../assets/toshi-logo.svg';
 import {
   NavigationContainer,
   NavLinks,
-  NavLink,
+  MyNavLink,
   LogoContainer,
 } from './navigation.styles';
 
@@ -32,14 +32,14 @@ const Navigation = () => {
           <Logo className='logo' />
         </LogoContainer>
         <NavLinks>
-          <NavLink to='/about'>ABOUT US</NavLink>
-          <NavLink to='/shop'>SHOP</NavLink>
+          <MyNavLink exact to="/about" activeClassName="active">ABOUT</MyNavLink>
+          <MyNavLink exact to='/shop' activeClassName="active">SHOP</MyNavLink>
           {currentUser ? (
-            <NavLink as='span' onClick={signOutUser}>
+            <MyNavLink as='span' onClick={signOutUser}>
               SIGN OUT
-            </NavLink>
+            </MyNavLink>
           ) : (
-            <NavLink to='/auth'>SIGN IN</NavLink>
+            <MyNavLink to='/auth'>SIGN IN</MyNavLink>
           )}
           <CartIcon />
         </NavLinks>

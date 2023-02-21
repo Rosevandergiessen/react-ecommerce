@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const NavigationContainer = styled.div`
   heigth: 70px;
@@ -28,7 +28,10 @@ export const NavLinks = styled.div`
   margin-top: 20px;
 `
 
-export const NavLink = styled(Link)`
+export const MyNavLink = styled(NavLink)`
   padding: 10px 15px;
   cursor: pointer;
+    &.active{
+      color: #dacc0a;
+    }
 `
