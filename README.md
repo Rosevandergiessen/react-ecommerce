@@ -1,4 +1,5 @@
-## E-commerce
+# E-commerce website
+**This e-commerce project was part of the Complete React Developers Course of Zero to Mastery. After the course, I am still tweaking the project and adding functionality to enhance the app's UI.**
 
 Technologies:
 - React & Redux
