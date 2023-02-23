@@ -38,8 +38,8 @@ const SignInForm = () => {
     event.preventDefault();
     try {
       dispatch(emailSignInStart(email, password));
-      redirect('/');
       resetFormFields();
+      redirect('/');
     } catch (error) {
       console.error('user sign in failed', error);
     }

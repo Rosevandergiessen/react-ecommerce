@@ -15,7 +15,7 @@ import {
   Title,
   TitleContainer,
   GoBackLink
- } from './category.styles';
+} from './category.styles';
 
 const Category = () => {
   const { category } = useParams();
