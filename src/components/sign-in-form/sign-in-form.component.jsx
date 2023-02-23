@@ -9,7 +9,6 @@ import { SignInContainer, ButtonsContainer } from './sign-in-form.styles';
 import {
   googleSignInStart,
   emailSignInStart,
-  signInFailed,
 } from '../../store/user/user.action';
 
 const defaultFormFields = {
@@ -28,7 +27,11 @@ const SignInForm = () => {
   };
 
   const signInWithGoogle = async () => {
-    dispatch(googleSignInStart());
+    try {
+      dispatch(googleSignInStart());
+    } catch (error) {
+      console.error('Sign in failed', error);
+    }
   };
 
   const handleSubmit = async (event) => {

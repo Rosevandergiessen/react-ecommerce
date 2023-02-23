@@ -5,33 +5,33 @@ import { DirectoryContainer } from './directory.styles';
 const categories = [
   {
     id: 1,
-    title: 'fashion',
-    imageUrl: 'http://source.unsplash.com/1PesBDwJz7g',
-    route: 'shop/fashion'
+    title: 'books',
+    imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1636978687i/58784475.jpg',
+    route: 'shop/books'
   },
   {
     id: 2,
     title: 'music',
     imageUrl: 'https://source.unsplash.com/W8BRzoUTHNA',
-    route: 'shop/toys'
+    route: 'shop/music'
   },
   {
     id: 3,
-    title: 'technology',
-    imageUrl: 'https://source.unsplash.com/Xd2FSvcRr8',
-    route: 'shop/snacks'
+    title: 'gaming',
+    imageUrl: 'https://image.coolblue.nl/max/2048x1536/products/1696771',
+    route: 'shop/gaming'
   },
   {
     id: 4,
-    title: 'gaming',
-    imageUrl: 'https://source.unsplash.com/jtPSdmlEOjk',
-    route: 'shop/venus'
+    title: 'travel',
+    imageUrl: 'https://source.unsplash.com/o4mP43oPGHk',
+    route: 'shop/travel'
   },
   {
     id: 5,
-    title: 'travel',
-    imageUrl: 'https://source.unsplash.com/miKmVyq3qhE',
-    route: 'shop/pluto'
+    title: 'technology',
+    imageUrl: 'https://source.unsplash.com/FBNxmwEVpAc',
+    route: 'shop/technology'
   }
 ]
 

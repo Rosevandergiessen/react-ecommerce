@@ -1,17 +1,17 @@
 const SHOP_DATA = [
   {
-    title: 'Fashion',
+    title: 'Books',
     items: [
       {
         id: 1,
-        name: 'Top',
-        imageUrl: 'http://source.unsplash.com/Em_7i3PEWns',
+        name: 'Tomorrow, and Tomorrow, and Tomorrow',
+        imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1636978687i/58784475.jpg',
         price: 125,
       },
       {
         id: 2,
-        name: 'Necklace',
-        imageUrl: 'http://source.unsplash.com/1PesBDwJz7g',
+        name: '1Q84',
+        imageUrl: 'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1483103331i/10357575.jpg',
         price: 18,
       },
       {
@@ -59,18 +59,18 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Gaming',
+    title: 'Music',
     items: [
       {
         id: 10,
-        name: 'Frisbee',
-        imageUrl: 'https://source.unsplashed.com/jtPSdmlEOjk',
+        name: 'Drum kit',
+        imageUrl: 'http://source.unsplashed.com/6NpYOFB3VCI',
         price: 15,
       },
       {
         id: 11,
         name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        imageUrl: 'http://source.unsplashed.com/W8gvK21oYYg',
         price: 280,
       },
       {
@@ -112,7 +112,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Snacks',
+    title: 'Gaming',
     items: [
       {
         id: 18,
@@ -147,7 +147,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Care',
+    title: 'Travel',
     items: [
       {
         id: 23,
@@ -194,7 +194,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: 'Travel',
+    title: 'Technology',
     items: [
       {
         id: 30,
