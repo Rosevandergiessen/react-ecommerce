@@ -10,7 +10,7 @@ const TypeComponent = () => {
         2000, // Waits 2s
         'Two Three', // Types 'Three' without deleting 'Two'
         () => {
-          console.log('Done typing!'); // Place optional callbacks anywhere in the array
+         // Place optional callbacks anywhere in the array
         }
       ]}
       wrapper="div"
